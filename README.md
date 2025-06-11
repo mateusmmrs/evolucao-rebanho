@@ -1,6 +1,20 @@
-# Evolução do Rebanho Bovino no Brasil (2005–2024)
+<h1 align="center">
+  Evolução do Rebanho Bovino no Brasil (2005–2024)
+</h1>
 
-Análise de como o rebanho bovino brasileiro mudou nos últimos 20 anos, cruzando dados do IBGE com desmatamento do INPE.
+<p align="center">
+  <em>Análise espaço-temporal do rebanho, desmatamento e intensificação pecuária (IBGE & INPE)</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-Data-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-Plots-11557C?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-Plots-4C72B0?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBGE-SIDRA_API-00A95D?logo=databricks&logoColor=white" />
+</p>
+
+---
 
 Comecei esse projeto querendo verificar algo que sempre ouvi na faculdade de veterinária: **"o boi está subindo pro Norte"**. Resolvi checar nos dados se isso é verdade — e é.
 
@@ -102,6 +116,18 @@ Esse gráfico de quadrantes resume bem a dinâmica. Existem basicamente dois cam
 - Cruzar com área de pastagem do MapBiomas
 - Incluir preço da arroba (CEPEA) e câmbio
 - Dashboard interativo
+
+---
+
+## Stack Tecnológica
+
+| Tecnologia | Aplicação |
+|-----------|-----------|
+| Python 3.14 | Linguagem principal |
+| Pandas / NumPy | Engenharia e manipulação de dados em série temporal |
+| Matplotlib / Seaborn | Geração de visualizações e gráficos estatísticos |
+| API SIDRA / IBGE | Coleta automatizada de dados de rebanho e abate |
+| INPE PRODES | Base de dados de supressão vegetal na Amazônia Legal |
 
 ---
 
